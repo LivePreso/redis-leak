@@ -138,11 +138,7 @@ CACHES = {
 # Celery Config
 
 CELERY_BROKER_URL = "redis://localhost:6379/0"
-CELERY_TASK_DEFAULT_QUEUE = "api"
 CELERY_TASK_SERIALIZER = "pickle"
 CELERY_ACCEPT_CONTENT = ["pickle", "json"]
-
-CELERY_BROKER_URL = "redis://localhost:6379/0"
-CELERY_TASK_DEFAULT_QUEUE = "api"
-
+CELERY_TASK_DEFAULT_QUEUE = "debug"
 CELERY_RESULT_BACKEND = "redis://localhost:6379/0"
