@@ -1,7 +1,11 @@
 
 # Redis connection leak with celery/django/gevent
 
-Reproduces issue at  https://github.com/redis/redis-py/issues/1495 using gevented django web server and redis cache.
+Reproduces celery issue at
+https://github.com/celery/celery/issues/6819 using gevented django web server and redis cache.
+
+Some more good discussion here:
+ https://github.com/redis/redis-py/issues/1495
 
 ## Setup
 
