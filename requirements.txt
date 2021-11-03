@@ -1,0 +1,8 @@
+Django==3.2.9
+django-redis==5.0.0
+gevent==21.8.0
+django-redis==5.0.0
+celery==5.1.2
+
+
+requests==2.26.0
