@@ -1,3 +1,6 @@
+import gevent.monkey
+
+gevent.monkey.patch_all()
 import os
 
 from celery import Celery

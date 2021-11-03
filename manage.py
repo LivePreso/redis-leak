@@ -2,6 +2,9 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+import gevent.monkey
+
+gevent.monkey.patch_all()
 
 
 def main():
