@@ -17,7 +17,7 @@ Some more good discussion here:
 
 ## Make a ton of requests
 
-First run `python.py load.py` - this will make requests to our django webserver to a view that executes and waits for the result from a debug celery task. This will make these requests in a tight loop until you kill the process. Keep this running while you monitor your redis connections
+First run `python load.py` - this will make requests to our django webserver to a view that executes and waits for the result from a debug celery task. This will make these requests in a tight loop until you kill the process. Keep this running while you monitor your redis connections
 
 ## Meaure connections
 
