@@ -1,5 +1,5 @@
 Django==3.2.9
-celery==5.1.2
+celery==5.2.0
 django-redis==5.0.0
 gevent==21.8.0
 gunicorn==20.1.0
